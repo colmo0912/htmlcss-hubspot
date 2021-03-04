@@ -160,4 +160,24 @@ main{
 
 /* aggiungo main */
 
+.main_img {
 
+    width: 100%;
+    background-color: chartreuse;
+
+}
+
+
+
+.main_img img {
+
+    padding: 40px 0;
+    width: 100%;
+}
+
+.main_img_center {
+
+    margin: auto;
+    width: 250px;
+    
+}
