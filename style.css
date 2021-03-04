@@ -110,3 +110,14 @@
     line-height: 60px;
 }
 
+/* hero */
+
+.hero {
+
+    width: 100%;
+    height: 500px;
+    background-image: url("./img/jumbotron.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
