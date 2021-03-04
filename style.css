@@ -9,9 +9,10 @@
 
     width: 1024px;
     margin: auto;
-    height: 1800px;
+    /* height: 1800px; */
     background-color: aquamarine;
     margin-top: 30px;
+    position: relative;
 }
 
 /* nav top */
@@ -121,3 +122,42 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.hero_main {
+
+    width: 80%;
+    margin: auto;
+
+}
+
+.hero_main_content {
+
+    width: 40%;
+    height: 100%;
+    padding-top: 100px;
+
+}
+
+/* aggiungo linea sotto l'hero */
+
+.space_line {
+
+    border: 2px solid black;
+    padding: 40px 0;
+    background-color: red;
+    position: absolute;
+    top: 550px;
+    width: 100%
+}
+
+main{
+
+    border: 2px solid black;
+    height: 1000px;
+    background-color: rgb(178, 203, 214);
+    width: 100%
+}
+
+/* aggiungo main */
+
+
