@@ -1,0 +1,67 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+
+    width: 1024px;
+    margin: auto;
+    height: 1800px;
+    background-color: aquamarine;
+    margin-top: 30px;
+}
+
+/* nav top */
+
+.nav_top {
+
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+    background-color: brown;
+}
+
+.nav_top::after {
+
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.nav_top .language h4, .nav_top .language, .contact_us {
+
+    display: inline-block;
+    
+}
+
+.contact_us {
+
+    border-left: 1px solid black;
+    padding: 0 10px;
+}
+
+.nav_bottom {
+
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+    background-color: rgb(42, 130, 165);
+
+
+}
+
+.nav_top_right {
+
+    float: right;
+}
+
+.nav_top_right_span, .login , .GHSF {
+
+    padding: 0 10px;
+
+}
