@@ -534,10 +534,11 @@ main{
 
 .partner {
 
-    height: 300px;
-    width: 65%;
+    height: 100px;
+    width: 80%;
     margin: auto;
     background-color: burlywood;
+    margin-top: 30px;
 }
 .partner::after{
 
@@ -574,5 +575,29 @@ main{
 
     height: 50%;
     border: 1px solid black;
+    /* width: 50%; */
+    
 
+}
+
+.partner_left_top {
+
+    text-align: left;
+    font-size: 25px;
+    margin: auto;
+    
+}
+
+.partner_left_bottom {
+
+    width: 50%;
+    text-align: left;
+    
+    
+}
+
+.partner_right .logo img{
+
+    width: 100px;
+    object-fit: contain;
 }
