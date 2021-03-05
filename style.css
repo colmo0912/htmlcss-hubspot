@@ -35,7 +35,6 @@
 .nav_top .language h4, .nav_top .language, .contact_us {
 
     display: inline-block;
-    
 }
 
 .contact_us {
@@ -52,7 +51,6 @@
 .nav_top_right_span, .login , .GHSF {
 
     padding: 0 10px;
-
 }
 
 /* nav bottom */
@@ -78,7 +76,6 @@
 
     float: left;
     height: 100%;
-
 }
 
 .logo img {
@@ -89,7 +86,6 @@
 .nav_bottom ul {
 
     display: inline-block;
-    
 }
 
 .nav_bottom ul li {
@@ -102,7 +98,6 @@
 
     list-style-type: none;
     color: white;
-    
 }
 
 .nav_bottom_list {
@@ -127,7 +122,6 @@
 
     width: 80%;
     margin: auto;
-
 }
 
 .hero_main_content {
@@ -135,7 +129,6 @@
     width: 40%;
     height: 100%;
     padding-top: 100px;
-
 }
 
 /* aggiungo linea sotto l'hero */
@@ -153,7 +146,7 @@
 main{
 
     /* border: 2px solid black; */
-    height: 1400px;
+    /* height: 1800px; */
     background-color: rgb(178, 203, 214);
     width: 100%
 }
@@ -164,10 +157,7 @@ main{
 
     width: 100%;
     background-color: chartreuse;
-
 }
-
-
 
 .main_img img {
 
@@ -179,7 +169,6 @@ main{
 
     margin: auto;
     width: 250px;
-
 }
 
 .main_message {
@@ -193,8 +182,6 @@ main{
 .main_message h2, p{
 
     padding: 0px 20px 20px 0px;
-
-
 }
 
 /* aggiungo sezione uno */
@@ -213,8 +200,6 @@ main{
     clear: both;
     display: table;
 }
-
-
 
 .section_top_right{
 
@@ -265,7 +250,6 @@ main{
     bottom: 0;
     position: absolute;
     width: 100%;
-    
 }
 
 .section_top_left_btn button {
@@ -273,8 +257,6 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-
-
 }
 
 .section_top_right h4 {
@@ -294,16 +276,12 @@ main{
     padding: 0 0 20px 0;
     display: inline-block;
     width: 200px;
-
-
 }
 
 .section_top_right_hr {
 
     border-top: 1px solid black;
 }
-
-
 
 .checked_span {
     background-color: orange;
@@ -313,14 +291,13 @@ main{
     border-radius: 50%;
     line-height: 40px;
     padding: 5px;
-
 }
 
 /* section bottom */
 
 .section_bottom {
 
-    background-color: silver;
+    background-color: rgb(192, 28, 28);
     height: 600px;
     width: 100%;
 }
@@ -329,7 +306,7 @@ main{
 
     width: 80%;
     height: 100%;
-    background-color: steelblue;
+    /* background-color: steelblue; */
     margin: auto;
 }
 
@@ -348,21 +325,22 @@ main{
 .card1 {
 
     background-color: violet;
-    width: 33.3%;
+    width: 30%;
     height: 100%;
 }
 
 .card2 {
 
     background-color: rgb(130, 238, 220);
-    width: 33.3%;
+    width: 30%;
     height: 100%;
+    margin: 0 5%;
 }
 
 .card3 {
 
     background-color: rgb(238, 204, 130);
-    width: 33.3%;
+    width: 30%;
     height: 100%;
 }
 
@@ -408,8 +386,6 @@ main{
     transform: translate(-50%,-50%); */
     width: 100%;
     height: 100%;
-
-
 }
 
 .card1_middle_message_h2 h2, .card1_bottom_message_h2, .card_bottom_message_btn,.card2_middle_message_h2, .card2_bottom_message_h2,.card3_middle_message_h2, .card3_bottom_message_h2 h2{
@@ -430,8 +406,6 @@ main{
 
     width: 90%;
     margin: auto;
-
-
 }
 
 .card1_bottom_message_list li, .card2_bottom_message_list li,.card3_bottom_message_list li{
@@ -444,4 +418,37 @@ main{
 
     padding: 10px 5px
 }
+
+/* sezione statistics */
+
+.statistics {
+
+    width: 100%;
+    height: 500px;
+    background-color: darkgrey;
+}
+
+.statistics .statistics_title {
+
+    width: 60%;
+    background-color: darkorchid;
+    margin: auto;
+    text-align: center;
+}
+
+.statistics .statistics_subtitle {
+
+    width: 80%;
+    background-color: rgb(50, 199, 204);
+    margin: auto;
+    text-align: center;
+    line-height: 25px;
+    padding: 20px 0 0 0;
+}
+
+
+
+
+
+
 
