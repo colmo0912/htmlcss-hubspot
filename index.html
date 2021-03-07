@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
     <Title>HubSpot</Title>
 </head>
 <body>
@@ -343,11 +344,11 @@
                         <div class="box_img">
                             <img class="smaller" src="img/homepage_community_agency.svg" alt="">
                         </div>
-                        <div>
+                        <div class="box_img_title">
                             <h1>150<span>+</span></h1>
                         </div>
                         <div>
-                            <h5>HotSpot user groups</h5>
+                            <h5 class="statistics_box_h5">HotSpot user groups</h5>
                         </div>
                         
                         
@@ -358,11 +359,11 @@
                         <div class="box_img">
                             <img class="normal" src="img/homepage_community_blog.svg" alt="">
                         </div>
-                        <div> 
+                        <div class="box_img_title"> 
                             <h1>4.5M<span>+</span></h1>
                         </div>
                         <div>
-                            <h5>Monthly visits</h5>
+                            <h5 class="statistics_box_h5">Monthly visits</h5>
 
                         </div>
                         
@@ -371,24 +372,25 @@
                         <div class="box_img">
                             <img class="normal" src="img/homepage_community_academy.svg" alt="">
                         </div>
-                        <div>
+                        <div class="box_img_title">
                             <h1>155K<span>+</span></h1>
                         </div>
                         <div>
-                            <h5>Certified professionals</h5>
+                            <h5 class="statistics_box_h5">Certified professionals</h5>
                         </div>
                         
                     </div>
 
                     <div class="box border_bottom_box">
                         <div class="box_img">
-                            <h4>INBOUND</h4>
+                            <!-- <h4>INBOUND</h4> -->
+                                <img class="normal" src="img/homepage_community_inbound.svg" alt="">
                         </div>
-                        <div>
+                        <div class="box_img_title">
                             <h1>21K<span>+</span></h1>
                         </div>
                         <div>
-                            <h5>registered attendees</h5>
+                            <h5 class="statistics_box_h5">registered attendees</h5>
                         </div>
             
                     </div>
@@ -396,12 +398,12 @@
                         <div class="box_img">
                             <img class="normal" src="img/homepage_community_connect.svg" alt="">
                         </div>
-                        <div>
+                        <div class="box_img_title">
                             <h1>200<span>+</span></h1>
                         </div>
                         
                         <div>
-                            <h5>integrations</h5>
+                            <h5 class="statistics_box_h5">integrations</h5>
                         </div>
                         
                     </div>
@@ -409,11 +411,11 @@
                         <div class="box_img">
                             <img class="smaller" src="img/homepage_community_globe.svg" alt="">
                         </div>
-                        <div>
+                        <div class="box_img_title">
                             <h1>6<span>+</span></h1>
                         </div>
                         <div>
-                            <h5>languages</h5>
+                            <h5 class="statistics_box_h5">languages</h5>
                         </div>
 
                     </div>
@@ -422,12 +424,12 @@
                         <div class="box_img">
                             <img class="smaller" src="img/homepage_community_followers.svg" alt="">
                         </div>
-                        <div>
+                        <div class="box_img_title">
                             <h1>2.6M<span>+</span></h1>
                         </div>
                         
                         <div>
-                            <h5>social followers</h5>
+                            <h5 class="statistics_box_h5">social followers</h5>
                         </div>
                     </div>
                     <div class="box">
@@ -437,8 +439,8 @@
                         <div>
                             <h1>5K<span>+</span></h1>
                         </div>
-                        <div>
-                            <h5>profiles and counting</h5>
+                        <div class="box_img_title">
+                            <h5 class="statistics_box_h5">profiles and counting</h5>
                         </div>
                         
                     </div>
@@ -459,7 +461,7 @@
                     </div>
                     <div class="partner_left_bottom">
 
-                        <h5>Customers in over <span>100</span> countries
+                        <h5>customers in over <span class="partner_left_bottom_span">100</span> countries
                         growing their businesses with HubSpot
                         </h5>
 
@@ -488,7 +490,7 @@
                         <img src="img/Wistia_logo@2x.webp" alt="">
                     </div>
                     <div class="logo">
-                        <img src="img/Classpass-logo@2x.webp" alt="">
+                        <img id="classpass" src="img/Classpass-logo@2x.webp" alt="">
                     </div>
                     <div class="logo">
                         <img src="img/VMware_logo_gry_RGB_300dpi@2x.webp" alt="">
@@ -512,7 +514,14 @@
                             with inbound has never been easier
                         </h5>
                     </div>
-                    <button class="GHSF"><a href="#">Get HubspotFree</a></button>
+                    <div class="partner_bottom_left_h5_btn">
+                        <button class="GHSF"><a href="#">Get HubspotFree</a></button>
+                    </div>
+                    <div class="partner_bottom_left_h5_btn_msg">
+                        <h5>Get started with FREE tools or get more with our premium software</h5>
+                    </div>
+
+                    
 
 
 
@@ -563,12 +572,14 @@
                             
                     </div>
                     <div class="footer_credits_list">
-                        <h4 class="credts_bold"><a href="#">Support and Tool</a> </h4>
+                        <div class="footer_credits_list_right">
+                            <h4 class="credts_bold"><a href="#">Support and Tool</a></h4>
                         <h4><a href="#">HubSpot Partners</a> </h4>
                         <h4><a href="#">Join a Local User Group</a> </h4>
                         <h4><a href="#">Get a Free Website Reports</a></h4>
                         <h4><a href="#">HubSpot Temolates</a></h4>
                         <h4><a href="#">Free Tools & Generators</a></h4>
+                        </div>
                         <button class="footer_credits_list_btn"><a href="#">Contact HubSpot Support</a></button>
                         <div class="social_icons">
                             <span>
