@@ -19,7 +19,7 @@
 
     width:100%;
     border-bottom: 1px solid black;
-    background-color: rgb(226, 245, 248);
+    background-color: rgb(226, 250, 255);
 }
 /* nav top */
 
@@ -89,7 +89,7 @@
 
 .nav_top_right .login{
 
-    background-color: rgb(226, 245, 248);
+    background-color: rgb(226, 250, 255);
     border: 1px solid orange;
     
     
@@ -1149,6 +1149,7 @@ footer {
     color: white;
     font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 200;
+    padding-top: 5px;
 }
 
 .last_footer_right {
