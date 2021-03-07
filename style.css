@@ -997,6 +997,12 @@ footer {
     padding: 15px 10px;
 }
 
+.footer_credits_list_btn a {
+
+    text-decoration: none;
+    color:rgb(45, 63, 81);
+}
+
 .footer_credits_list h4 a {
 
     text-decoration: none;
@@ -1005,23 +1011,36 @@ footer {
 
 .social_icons {
 
-    padding: 20px 20px;
+    /* padding: 20px 0px; */
     color: white;
-    border: 1px solid white;
-    width: 230px;
-    margin-left: -25px;
+    /* border: 1px solid white; */
+    width: 200px;
+    height: 40px;
+    /* margin-left: -25px; */
+    padding-top: 15px;
 }
 
-/* .social_icons span {
+.social_icons::after{
 
-    padding: 10px 10px
-} */
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.social_icons span {
+
+    float: left;
+    /* border: 1px solid white; */
+    width: 40px;
+    height: 100%;
+    object-fit: cover;
+}
 
 .bottom_footer {
 
     /* height: 300px; */
     width: 100%;
-    background-color: burlywood;
+    background-color: rgb(45, 63, 81);
 
 }
 
@@ -1030,7 +1049,8 @@ footer {
     width: 80%;
     margin: auto;
     /* height: 100px; */
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
+    padding-top: 40px;
 }
 
 .bottom_footer_links .bottom_footer_links_central {
@@ -1039,7 +1059,6 @@ footer {
     margin: auto;
     /* border: 1px solid black; */
     text-align: center;
-
 }
 
 .bottom_footer_links .bottom_footer_links_central li {
@@ -1055,6 +1074,8 @@ footer {
 
     text-decoration: none;
     color: white;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
 }
 
 .last_footer {
@@ -1062,10 +1083,10 @@ footer {
     width: 80%;
     margin: auto;
     /* height: 50px; */
-    background-color: chartreuse;
+    background-color: rgb(45, 63, 81);
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 
 }
 
@@ -1095,6 +1116,12 @@ footer {
     float: left;
 }
 
+.legal_footer h5 {
+    color: white;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+}
+
 .last_footer_right {
 
     float: left;
@@ -1118,6 +1145,9 @@ footer {
 .last_footer_right ul li a {
 
     text-decoration: none;
+    color: white;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
 }
 
 
