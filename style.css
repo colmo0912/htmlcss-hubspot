@@ -11,7 +11,6 @@
     margin: auto;
     /* height: 1800px; */
     background-color: white;
-    margin-top: 30px;
     position: relative;
 }
 
@@ -30,7 +29,13 @@
     margin: auto;
     /* padding: 20px 0; */
     /* background-color: rgb(226, 245, 248); */
-    padding: 30px 0;
+    /* padding: 30px 0; */
+}
+
+.central_nav_top ,.nav_top_right{
+
+    padding: 20px 0;
+    
 
 }
 
@@ -51,14 +56,13 @@
     font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     color: rgb(126, 139, 151);
-
 }
 
 .contact_us {
 
     border-left: 1px solid black;
     padding: 0 15px;
-    
+
 }
 
 .contact_us a {
@@ -66,7 +70,7 @@
     text-decoration: none;
     color: rgb(126, 139, 151);
     font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
-    
+
 }
 
 .nav_top_right {
@@ -79,15 +83,16 @@
 
     text-decoration: none;
     padding: 0 10px;
-    
 }
 
-.nav_top_right_span ,.nav_top_right button,.hero_main_content button{
+.nav_top_right_span ,.nav_top_right button {
 
-    padding: 10px 10px;
-    margin-right: 10px;
     border-radius: 5px;
+    vertical-align: middle;
+    padding: 10px 0;
+
 }
+
 
 
 .nav_top_right_span, .login , .GHSF {
@@ -132,7 +137,7 @@
     background-color: white;
     /* height: 60px; */
     color: rgb(126, 139, 151);
-    padding-top: 20px;
+    /* padding-top: 20px; */
     
 }
 
@@ -147,12 +152,16 @@
 
     float: left;
     /* height: 100%; */
+    line-height: 96px;
+    width: 25%;
 }
 
-.logo img {
+.nav_bottom .logo img {
 
     /* height: 100%; */
-    width: 180px;
+    width: 120px;
+    vertical-align: middle;
+
 }
 .nav_bottom ul {
 
@@ -164,20 +173,21 @@
     list-style-type: none;
     display: inline;
     padding: 0 0 0 10px;
-    
+
 }
 
 .nav_bottom ul li a {
 
     color: rgb(126, 139, 151);
     text-decoration: none;
-    
+
 }
 
 .nav_bottom_list {
 
     float: right;
-    line-height: 60px;
+    /* line-height: 60px; */
+    line-height: 96.8594px
 }
 
 .nav_bottom_list li {
@@ -249,6 +259,15 @@
     border: 0;
 
 }
+
+.hero_main_content button{
+
+    padding: 10px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
 
 
 
@@ -424,7 +443,6 @@ main{
     background-color: orange;
     color: white;
     padding: 20px 15px;
-   
     border-radius: 5px;
     border: 0;
 }
@@ -842,24 +860,7 @@ main{
     height: 100%;
 }
 
-.logo {
 
-    width: 25%;
-    /* height: 50%; */
-    /* border: 1px solid black; */
-    padding: 0 0 40px 0; 
-
-}
-
-
-.partner_left_top ,.partner_left_bottom {
-
-    /* height: 50%; */
-    /* border: 1px solid black; */
-    /* width: 50%; */
-    
-
-}
 
 .partner_left_top {
 
