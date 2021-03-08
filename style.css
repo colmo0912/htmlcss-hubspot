@@ -202,7 +202,7 @@
 .hero_main_content {
 
     width: 40%;
-    height: 100%;
+    /* height: 100%; */
     /* padding-top: 20px; */
 }
 
@@ -443,7 +443,7 @@ main{
 
 .checked_span {
     background-color: orange;
-    height: 40px;
+    /* height: 40px; */
     width: 40px;
     color: white;
     border-radius: 50%;
@@ -468,7 +468,7 @@ main{
 .cards {
 
     width: 80%;
-    height: 100%;
+    /* height: 100%; */
     /* background-color: steelblue; */
     margin: auto;
     padding-bottom: 25px;
@@ -495,7 +495,7 @@ main{
 
     /* background-color: violet; */
     width: 30%;
-    height: 100%;
+    /* height: 100%; */
     border-radius: 10px;
 }
 
@@ -503,7 +503,7 @@ main{
 
     /* background-color: rgb(130, 238, 220); */
     width: 30%;
-    height: 100%;
+    /* height: 100%; */
     margin: 0 5%;
     border-radius: 10px;
 }
@@ -512,7 +512,7 @@ main{
 
     /* background-color: rgb(238, 204, 130); */
     width: 30%;
-    height: 100%;
+    /* height: 100%; */
     border-radius: 10px;
 }
 
@@ -521,7 +521,7 @@ main{
 .card1_top, .card2_top, .card3_top{
 
     width: 100%;
-    height: 30%;
+    /* height: 30%; */
     /* background-color: blue; */
     position: relative;
     border-radius: 10px;
@@ -543,7 +543,7 @@ main{
 .card1_middle,.card2_middle,.card3_middle {
 
     width: 100%;
-    height: 30%;
+    /* height: 30%; */
     /* background-color: rgb(0, 255, 34); */
     /* position: relative; */
 }
@@ -551,7 +551,7 @@ main{
 .card1_bottom,.card2_bottom, .card3_bottom{
 
     width: 100%;
-    height: 40%;
+    /* height: 40%; */
     /* background-color: rgb(0, 140, 255); */
 }
 
@@ -562,7 +562,7 @@ main{
     left: 50%;
     transform: translate(-50%,-50%); */
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .card1_middle_message_h2 h2, .card1_bottom_message_h2, .card_bottom_message_btn,.card2_middle_message_h2 h2, .card2_bottom_message_h2,.card3_middle_message_h2 h2, .card3_bottom_message_h2 {
@@ -705,7 +705,7 @@ main{
 
     width: 25%;
     float: left;
-    height: 50%;
+    /* height: 50%; */
     position: relative;
 }
 
@@ -722,7 +722,7 @@ main{
 
 .box_img {
 
-    height: 40%;
+    /* height: 40%; */
     width: 100%;
     /* background-color: rgb(0, 255, 55); */
     position: relative;
@@ -813,7 +813,7 @@ main{
 .logo {
 
     width: 25%;
-    height: 50%;
+    /* height: 50%; */
     /* border: 1px solid black; */
     padding: 0 0 40px 0; 
 
@@ -822,7 +822,7 @@ main{
 
 .partner_left_top ,.partner_left_bottom {
 
-    height: 50%;
+    /* height: 50%; */
     /* border: 1px solid black; */
     /* width: 50%; */
     
@@ -895,7 +895,7 @@ main{
     float:left;
     /* background-color:lightblue; */
     width: 50%;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .partner_bottom_left .partner_bottom_left_h2 h2 {
@@ -917,7 +917,7 @@ main{
     float: left;
     /* background-color: deeppink; */
     width: 50%;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .partner_bottom_right img {
