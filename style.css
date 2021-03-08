@@ -1018,6 +1018,7 @@ footer {
 
     padding: 10px 10px;
     border-radius: 10px;
+    border: 0;
 }
 
 .footer_credits_list_btn a {
