@@ -265,9 +265,6 @@
 }
 
 
-
-
-
 /* aggiungo linea sotto l'hero */
 
 .space_line {
@@ -336,7 +333,7 @@ main{
 
 .section_top {
 
-    width: 70%;
+    width: 75%;
     background-color:white;
     margin: auto;
     border-radius: 10px;
@@ -473,7 +470,7 @@ main{
 
 .cards {
 
-    width: 70%;
+    width: 75%;
     margin: auto;
     padding-bottom: 25px;
 
@@ -619,6 +616,11 @@ main{
     border: 0;
 }
 
+.card1_middle_message_h3_p_pad p {
+
+    padding-top: 30px;
+}
+
 
 /* sezione statistics */
 
@@ -642,7 +644,7 @@ main{
     background-color: rgb(50, 199, 204);
     margin: auto;
     text-align: center;
-    padding: 20px 0 10px 0;
+    padding: 30px 0 10px 0;
 
 }
 
@@ -665,7 +667,7 @@ main{
 
 .statistics_box {
 
-    width: 80%;
+    width: 75%;
     background-color: rgb(50, 199, 204);
     margin: auto;
     padding-top: 20px;
@@ -824,7 +826,7 @@ main{
 
 .partner_bottom {
 
-    width: 80%;
+    width: 75%;
     margin: auto;
     margin-top: 10px;
     padding-bottom: 50px;
@@ -915,7 +917,7 @@ footer {
 .top_footer {
 
     margin: auto;
-    width: 80%;
+    width: 75%;
     background-color: rgb(45, 63, 81);
     
 }
@@ -1008,7 +1010,7 @@ footer {
 
 .bottom_footer_links {
 
-    width: 80%;
+    width: 75%;
     margin: auto;
     border-bottom: 1px solid white;
     padding-top: 40px;
@@ -1040,7 +1042,7 @@ footer {
 
 .last_footer {
 
-    width: 80%;
+    width: 75%;
     margin: auto;
     background-color: rgb(45, 63, 81);
     padding-top: 30px;
