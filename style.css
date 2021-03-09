@@ -141,7 +141,7 @@
 .logo {
 
     float: left;
-    line-height: 96px;
+    line-height: 40px;
     width: 25%;
 }
 
@@ -324,7 +324,7 @@ main{
 
 .section_top {
 
-    width: 80%;
+    width: 70%;
     background-color:white;
     margin: auto;
     border-radius: 10px;
@@ -461,7 +461,7 @@ main{
 
 .cards {
 
-    width: 80%;
+    width: 70%;
     margin: auto;
     padding-bottom: 25px;
 
@@ -626,11 +626,11 @@ main{
 
 .statistics .statistics_title ,.statistics_subtitle{
 
-    width: 60%;
+    width: 45%;
     background-color: rgb(50, 199, 204);
     margin: auto;
     text-align: center;
-    padding: 40px 0;
+    padding: 20px 0 10px 0;
 
 }
 
@@ -643,19 +643,20 @@ main{
 
 .statistics .statistics_subtitle {
 
-    width: 80%;
+    width: 70%;
     background-color: rgb(50, 199, 204);
     margin: auto;
     text-align: center;
     line-height: 25px;
-    padding: 20px 0;
+    padding: 20px 0 10px 0;
 }
 
 .statistics_box {
 
     width: 80%;
-    background-color: rgb(194, 56, 11);
+    background-color: rgb(50, 199, 204);
     margin: auto;
+    padding-top: 20px;
 
 }
 
@@ -682,6 +683,7 @@ main{
     width: 100%;
     position: relative;
     padding: 60px 10px 10px 10px;
+    
 }
 
 .box_img .normal , .box_img h4{
@@ -733,7 +735,7 @@ main{
 
 .partner {
 
-    width: 60%;
+    width: 65%;
     margin: auto;
     margin-top: 30px;
     background-color: white;
@@ -754,10 +756,12 @@ main{
     height: 100%;
 }
 
+
+
 .partner_right {
 
-    float: left;
-    width: 65%;
+    float: right;
+    width: 40%;
     height: 100%;
 }
 
