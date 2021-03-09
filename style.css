@@ -228,6 +228,7 @@
     font-weight: 600;
     font-size: 60px;
     padding-bottom: 20px;
+    color: rgb(51, 71, 91);
 }
 
 .hero_main_content_p {
@@ -241,6 +242,7 @@
     line-height: 30px;
     padding-top: 20px;
     padding-bottom: 40px;
+    color: rgb(51, 71, 91);
 }
 
 
@@ -326,6 +328,7 @@ main{
     padding: 0px 20px 20px 0px;
     font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 30px;
+    color: rgb(51, 71, 91);
     
 }
 
@@ -414,17 +417,24 @@ main{
 
     font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
     padding-bottom: 20px;
+    color: rgb(51, 71, 91);
 
 }
 
 .section_top_right h4 {
 
     font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(51, 71, 91);
 }
 
 .section_top_right_p {
 
     width: 80%;
+}
+
+.section_top_right_p p {
+
+    color: rgb(51, 71, 91);
 }
 
 .popolar_h4 {
@@ -554,6 +564,7 @@ main{
     margin: auto;
     text-align: center;
     padding: 20px 0;
+    color: rgb(51, 71, 91);
 }
 
 .card1_bottom_message_list,.card2_bottom_message_list,.card3_bottom_message_list {
@@ -567,6 +578,7 @@ main{
 
     list-style-type: none;
     text-align: left;
+    color: rgb(51, 71, 91);
 }
 
 .card_bottom_message_btn button h3 {
@@ -808,6 +820,7 @@ main{
     font-weight: 400;
     padding-top: 20px;
     line-height: 20px;
+    color: rgb(51, 71, 91);
 
 }
 
@@ -851,12 +864,14 @@ main{
     font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 28px;
     line-height: 33px;
+    color: rgb(51, 71, 91);
 }
 
 .partner_bottom_left_h5 h5 ,.partner_bottom_left_h5_btn_msg h5 {
 
     font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
+    color: rgb(51, 71, 91);
 
 }
 
