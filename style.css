@@ -25,7 +25,7 @@
 
 .nav_top {
 
-    width: 80%;
+    width: 75%;
     margin: auto;
     line-height: 30px;
     padding: 20px 0;
@@ -124,7 +124,7 @@
 
 .nav_bottom {
 
-    width: 80%;
+    width: 75%;
     margin: auto;
     background-color: white;
     color: rgb(126, 139, 151);
@@ -183,12 +183,11 @@
     font-weight: 400;
     color: rgb(126, 139, 151);
 
-
 }
 
 .nav_bottom_list_span, .language_span span{
 
-    padding: 5px 15px 5px 0;
+    padding: 5px 0px 5px 5px;
     font-size: 20px;
     color: rgb(126, 139, 151);
     
@@ -203,21 +202,23 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 210px 0;
+    padding: 50px 0;
     box-shadow: 10px 10px 10px 10px rgb(190, 190, 190);
     
 }
 
 .hero_main {
 
-    width: 80%;
+    width: 75%;
     margin: auto;
     
 }
 
 .hero_main_content {
 
-    width: 40%;
+    width: 50%;
+    padding-bottom: 190px;
+    
 
 }
 
@@ -225,7 +226,13 @@
 
     font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+.hero_main_content_p {
+
+    width: 80%;
 }
 
 .hero_main_content p {
@@ -233,6 +240,7 @@
     font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 30px;
     padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 
@@ -242,16 +250,20 @@
     background-color: orange;
     color: white;
     border: 0;
-
-}
-
-.hero_main_content button{
-
-    padding: 10px 10px;
     margin-right: 10px;
     border-radius: 5px;
-    vertical-align: middle;
+
 }
+
+
+.hero_main_content h4 {
+
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    padding-top: 40px;
+    
+}
+
 
 
 
@@ -329,7 +341,7 @@ main{
     margin: auto;
     border-radius: 10px;
     margin-bottom: 40px;
-    margin-top: 30px;
+    margin-top: 10px;
     box-shadow: 0px 0px 5px 5px rgb(190, 190, 190);
 }
 
